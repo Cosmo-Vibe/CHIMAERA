@@ -1,0 +1,278 @@
+@import url("../fonts/fonts.css");
+@import url("../styles/mediaquerries.css");
+@import url("../styles/keyframes.css");
+
+* {
+  font-family: "Faune Regular";
+}
+
+body {
+  margin: 0;
+  background-color: rgb(15, 15, 15);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* le style du titre */
+.logo {
+  width: 45vh;
+  animation-delay: 0.9s;
+  animation-duration: 3s;
+  z-index: +2;
+  padding-bottom: 5vh;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 300;
+  z-index: +3;
+}
+
+li {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* le style du header */
+header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backheader {
+  z-index: +1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  animation-duration: 3s;
+  opacity: 70%;
+  filter: opacity(0.5);
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#triangle {
+  z-index: +3;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 10px solid white;
+  position: absolute;
+  display: flex;
+}
+
+/*Canvas*/
+.canvas-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+
+.canvas-container #prompt {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 2.5vh;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border-color: rgb(15, 15, 15);
+  border-style: solid;
+  border-width: 2px; */
+  padding: 2px;
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  font-family: "Faune Regular";
+
+  /*- webkit-text-stroke: 1px rgb(15, 15, 15);
+  letter-spacing: .1rem; */
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.canvas-container h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 2.5vh;
+  font-weight: bold;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -6%);
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.canvas-container button {
+  background-color: transparent;
+  border: 0;
+  border: none;
+  cursor: pointer;
+  justify-content: right;
+  align-items: right;
+  position: absolute;
+  right: 10px; /* Adjust as needed */
+  bottom: 10px; /* Adjust as needed */
+}
+
+.canvas-container button svg {
+  width: 60px;
+  height: 60px;
+}
+
+.canvas,
+#canvas {
+  width: 100%;
+  height: 100%;
+  /* z-index: +2; */
+
+  /* .background-forest,
+.background-jungle,
+.background-desert,
+.background-plage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1; */
+}
+
+/* les animations */
+.elementToFadeInAndOut {
+  opacity: 0;
+  animation: 2s fade-bounce 4s infinite;
+}
+
+.flashing {
+  animation: 3s flash infinite;
+}
+
+/* le style du reste */
+header {
+  cursor: none;
+  background-color: black;
+}
+
+body {
+  cursor: url("../images/White-Circle.png") 15 15, auto;
+}
+
+footer {
+  bottom: 0;
+  height: 5.5vh;
+  width: 100%;
+  padding-top: 0.5vh;
+  background-color: rgb(27, 27, 27);
+  cursor: url("../images/White-Circle-petit.png") 7 7, auto;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.redirection a {
+  cursor: url("../images/White-Circle-petit.png") 7 7, auto;
+  font-size: 1.8vh;
+  text-decoration: none;
+  color: rgb(106, 105, 105);
+  margin-left: 3vh;
+  position: relative;
+  z-index: +3;
+}
+
+.biome {
+  bottom: 5vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav button {
+  cursor: url("../images/White-Circle-petit.png") 7 7, auto;
+  font-size: 3vh;
+  background-color: rgb(27, 27, 27);
+  color: rgb(106, 105, 105);
+  border-radius: 4vh;
+  border-style: none;
+  padding: 1vh;
+  width: 15vh;
+  margin-left: 8vh;
+  margin-right: 8vh;
+}
+
+.hover a:hover,
+.hover button:hover {
+  color: white;
+  transition: 0.6s;
+}
