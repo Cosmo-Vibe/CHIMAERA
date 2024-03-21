@@ -1,0 +1,31 @@
+/* Fade and Bounce annimation */
+@keyframes fade-bounce {
+  0% {
+    opacity: 0;
+    bottom: 6vh;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+    bottom: 2vh;
+  }
+}
+
+/* Flash annimation */
+@keyframes flash {
+  0% {
+    opacity: 30%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 30%;
+  }
+}

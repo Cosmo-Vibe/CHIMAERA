@@ -1,0 +1,75 @@
+/* Faune fonts */
+@import url("./Webfonts/webfont.css");
+
+/* Figtree */
+@font-face {
+    font-family: 'Figtree Regular';
+    src: url('./Figtree/static/Figtree-Regular.ttf');
+}
+
+/* Figtree italic */
+@font-face {
+    font-family: 'Figtree Italic';
+    src: url('./Figtree/static/Figtree-Italic.ttf');
+}
+
+/* Figtree bold */
+@font-face {
+    font-family: 'Figtree Bold';
+    src: url('./Figtree/static/Figtree-Bold.ttf');
+}
+
+/* Figtree bold italic */
+@font-face {
+    font-family: 'Figtree Bold Italic';
+    src: url('./Figtree/static/Figtree-BoldItalic.ttf');
+}
+
+/* Figtree light */
+@font-face {
+    font-family: 'Figtree Light';
+    src: url('./Figtree/static/Figtree-Light.ttf');
+}
+
+/* Figtree light italic */
+@font-face {
+    font-family: 'Figtree Light Italic';
+    src: url('./Figtree/static/Figtree-LightItalic.ttf');
+}
+
+/* Figtree medium */
+@font-face {
+    font-family: 'Figtree Medium';
+    src: url('./Figtree/static/Figtree-Medium.ttf');
+}
+
+/* Figtree medium italic */
+@font-face {
+    font-family: 'Figtree Medium Italic';
+    src: url('./Figtree/static/Figtree-MediumItalic.ttf');
+}
+
+/* Figtree semi bold */
+@font-face {
+    font-family: 'Figtree SemiBold';
+    src: url('./Figtree/static/Figtree-SemiBold.ttf');
+}
+
+/* Figtree semi bold italic */
+@font-face {
+    font-family: 'Figtree SemiBold Italic';
+    src: url('./Figtree/static/Figtree-SemiBoldItalic.ttf');
+}
+
+/* Figtree thin */
+@font-face {
+    font-family: 'Figtree Thin';
+    src: url('./Figtree/static/Figtree-Thin.ttf');
+}
+
+/* Figtree thin italic */
+@font-face {
+    font-family: 'Figtree Thin Italic';
+    src: url('./Figtree/static/Figtree-ThinItalic.ttf');
+}
+
