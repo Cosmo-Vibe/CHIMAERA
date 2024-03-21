@@ -4,11 +4,13 @@
 
 * {
   font-family: "Faune Regular";
+  text-decoration: none;
 }
 
 body {
   margin: 0;
   background-color: rgb(15, 15, 15);
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -275,4 +277,112 @@ nav button {
 .hover button:hover {
   color: white;
   transition: 0.6s;
+}
+
+/* Copywrite page */
+.copywriter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 3vh;
+  color: white;
+  font-size: 1.5vh;
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+
+/* Enhancing details and summary appearance */
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+summary:hover {
+  background-color: #e9e9e9;
+}
+
+summary:focus {
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+/* Specific styles for .copywriter class */
+.copywriter h3 {
+  font-size: 20px; /* Adjusted font size */
+  color: rgb(15, 15, 15); /* Darker text for better visibility */
+}
+
+/* Adjusting font size and visibility within the copywriter class */
+.copywriter p {
+  padding-left: 1em;
+  font-size: 16px; /* Making the text within <p> more visible */
+  color: rgb(106, 105, 105); /* Lighter text color for paragraph */
+}
+
+/* Legal notice page */
+
+#contenu {
+  color: white;
+  box-sizing: border-box;
+  padding: 10vh;
+}
+
+.legal-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px; /* Spacing before articles start */
+}
+
+.legal-navigation li {
+  display: inline;
+  margin-right: 15px; /* Spacing between navigation items */
+}
+
+.legal-navigation a {
+  color: white;
+  text-decoration: none;
+  animation: flash 5s ease-in-out infinite;
+}
+
+.legal-navigation a:hover,
+.legal-navigation a:focus {
+  text-decoration: underline;
+}
+
+.text-content h2 {
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0vh 3vh 0 3vh;
+}
+
+.text-content p {
+  text-align: justify;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  padding: 5vh;
+}
+
+#dataCollection p a {
+  color: white;
+  font-weight: bold;
 }
