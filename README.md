@@ -1,6 +1,6 @@
 
 # CHĬMAERA
-[<img src="https://github.com/Cosmo-Vibe/CHIMAERA/assets/150383280/fec36a69-5260-40b0-9f9c-96fb6a0f1ee5" width="500" style="align-self:center"/>](https://github.com/Cosmo-Vibe/CHIMAERA/assets/150383280/fec36a69-5260-40b0-9f9c-96fb6a0f1ee5)
+[<img src="https://github.com/Cosmo-Vibe/CHIMAERA/assets/150383280/fec36a69-5260-40b0-9f9c-96fb6a0f1ee5" width="500" style="align-self:center"/>]([https://github.com/Cosmo-Vibe/CHIMAERA/assets/150383280/fec36a69-5260-40b0-9f9c-96fb6a0f1ee5](https://cosmo-vibe.github.io/CHIMAERA/))
 
 
 ---
